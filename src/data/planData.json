@@ -1,0 +1,77 @@
+
+     [{
+          "id": 1,
+          "planType": "10=30",
+          "planDesc": "Prepaid deal: For a limited time, 3x the calling credit",
+          "products": [{
+               "id": 1,
+               "credit": 10,
+               "promoCredit": 15,
+               "cost": 5,
+               "url": "https://mobile.lebara.com/nl/en/special-offer/payg_5"
+          },
+          {
+               "id": 2,
+               "credit": 20,
+               "promoCredit": 30,
+               "cost": 10,
+               "url": "https://mobile.lebara.com/nl/en/special-offer/payg_10"
+          },
+          {
+               "id": 3,
+               "credit": 40,
+               "promoCredit": 60,
+               "cost": 20,
+               "url": "https://mobile.lebara.com/nl/en/special-offer/payg_20"
+          },
+          {
+               "id": 4,
+               "credit": 60,
+               "promoCredit": 90,
+               "cost": 30,
+               "url": "https://mobile.lebara.com/nl/en/special-offer/payg_30"
+          },
+          {
+               "id": 5,
+               "credit": 110,
+               "promoCredit": 150,
+               "cost": 50,
+               "url": "https://mobile.lebara.com/nl/en/special-offer/payg_50"
+          }
+          ]
+     },
+     {
+          "id": 2,
+          "planType": "Lebara One",
+          "planDesc": "Low fixed rates for mobile data, calling and texting",
+          "products": [{
+               "id": 1,
+               "credit": 10,
+               "promoCredit": null,
+               "cost": 10,
+               "url": "https://mobile.lebara.com/nl/en/special-offer/lebaraone"
+          },
+          {
+               "id": 2,
+               "credit": 15,
+               "promoCredit": null,
+               "cost": 15,
+               "url": "https://mobile.lebara.com/nl/en/special-offer/lebaraone15"
+          },
+          {
+               "id": 3,
+               "credit": 20,
+               "promoCredit": null,
+               "cost": 20,
+               "url": "https://mobile.lebara.com/nl/en/special-offer/lebaraone20"
+          },
+          {
+               "id": 4,
+               "credit": 30,
+               "promoCredit": null,
+               "cost": 30,
+               "url": "https://mobile.lebara.com/nl/en/special-offer/lebaraone30"
+          }
+          ]
+     }
+     ]
