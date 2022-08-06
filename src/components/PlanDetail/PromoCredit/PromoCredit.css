@@ -1,0 +1,24 @@
+.numberBox {
+    display: flex;
+    flex-direction: row;
+    font-family: ChiswickGrotesqueLebara-Bold;
+    color: rgb(26, 31, 69);
+    font-size: 32px;
+    font-weight: bold;
+    height: 32px;
+    letter-spacing: -0.5px;
+    width: 39px;
+}
+
+.credit {
+    color: rgb(189, 199, 219);
+    font-size: 32px;
+    font-weight: bold;
+    height: 32px;
+    letter-spacing: -0.5px;
+    width: 37px;
+    margin-right: 8px;
+    margin-left: 8px;
+    text-decoration: line-through;
+    word-wrap: unset;
+}

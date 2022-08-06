@@ -1,4 +1,4 @@
-.optionList{
+.optionList {
     display: flex;
     flex-direction: column;
     background: rgb(255, 255, 255);
@@ -7,11 +7,28 @@
     max-width: 1140px;
     margin: 40px auto auto;
 }
-.optionBox{
+
+.optionBox {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 56px;
-    margin-right: 56px;
-    margin-top: 32px;
+    margin: 32px 56px;
+}
+
+.optionCost {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.optionPrice {
+    font-family: Bree Serif;
+    margin-right: 24px;
+    color: rgb(26, 31, 69);
+    font-size: 32px;
+    font-weight: bold;
+    height: 32px;
+    letter-spacing: -0.5px;
+    width: 39px;
+    word-wrap: initial;
 }
