@@ -1,0 +1,25 @@
+
+.planBox {
+    list-style: none;
+}
+
+.planTitle {
+    color: rgb(60, 45, 160);
+    font-family: Bree Serif;
+    font-size: 32px;
+    font-weight: bold;
+    height: 32px;
+    letter-spacing: -0.4px;
+    margin-top: 30px;
+}
+
+.planDesc {
+    margin-top: 15px;
+    color: rgb(60, 45, 160);
+    font-family: Bree Serif;
+    font-size: 20px;
+    font-weight: 500;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+}

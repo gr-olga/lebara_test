@@ -1,21 +1,22 @@
 import data from '../../data/planData.json'
 import PlanDetail from "../PlanDetail/PlanDetail";
+import './DataTable.css'
 
 export default function DataTable() {
-
     return (
-        <div>
-            {data && data.map((i: any) => {
+        <ul className="plansList">
+            {data && data.map((i) => {
                 return (
-                    <div>
-                        <h3>{i.planType}</h3>
-                        <p>{i.planDesc}</p>
+                    <li key={i.id} className="planBox">
+                        <h3 className="planTitle">{i.planType}</h3>
+                        <p className="planDesc">{i.planDesc}</p>
                         <div>
                             <PlanDetail data={i.products}/>
                         </div>
-                    </div>
+                    </li>
                 )
             })}
-        </div>
+        </ul>
     )
 }
+

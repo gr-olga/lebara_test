@@ -1,14 +1,20 @@
+import {Button} from "@chakra-ui/react"
+import {PlanDetailType} from "../../types/PlanDetailType";
+import "./PlanDetail.css"
+
 export default function PlanDetail(props: { data: Array<PlanDetailType> }) {
     const {data} = props
     return (
-        <div>
+        <div className="optionList">
             {data.map((item) => {
                 return (
-                    <div>
+                    <div key={item.id} className="optionBox">
                         <h4>{item.cost}</h4>
                         <h4>{item.credit}</h4>
                         <h4>{item.promoCredit}</h4>
-                        <button>{item.url}</button>
+                        <h4> €{item.cost}</h4>
+                        <Button colorScheme='pink' onClick={() => window.open(item.url)}
+                                aria-label="link">TopUp</Button>
                     </div>
                 )
             })}
@@ -16,10 +22,3 @@ export default function PlanDetail(props: { data: Array<PlanDetailType> }) {
     )
 }
 
-interface PlanDetailType {
-    readonly id: number,
-    readonly credit: number,
-    readonly promoCredit: number,
-    readonly cost: number,
-    readonly url: string
-}
