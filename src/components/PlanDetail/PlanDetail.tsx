@@ -18,7 +18,7 @@ export default function PlanDetail(props: { data: Array<PlanDetailType> }) {
                                 <h4>{item.credit}</h4>}
                             <div className="optionCost">
                                 <h4 className="optionPrice"> €{item.cost}</h4>
-                                <Button colorScheme='pink' onClick={() => window.open(item.url)}
+                                <Button className="btn" colorScheme='pink' onClick={() => window.open(item.url)}
                                         aria-label="link">TopUp</Button>
                             </div>
                         </div>
