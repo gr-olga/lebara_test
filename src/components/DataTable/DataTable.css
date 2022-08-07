@@ -1,16 +1,16 @@
-.plansList {
+.plan-list {
     width: 100%;
     max-width: 1140px;
 }
 
-.planBox {
+.plan-box {
     list-style: none;
     margin-bottom: 40px;
 }
 
-.planTitle {
+.plan-title {
     color: rgb(60, 45, 160);
-    font-family: Bree Serif;
+    font-family: Bree Serif, sans-serif;
     font-size: 32px;
     font-weight: bold;
     height: 32px;
@@ -18,10 +18,10 @@
     margin-top: 30px;
 }
 
-.planDesc {
+.plan-desc {
     margin-top: 15px;
     color: rgb(60, 45, 160);
-    font-family: Bree Serif;
+    font-family: Bree Serif, sans-serif;
     font-size: 20px;
     font-weight: 500;
     height: 32px;
@@ -30,7 +30,7 @@
 }
 
 @media screen and (max-width: 400px) {
-    .planDesc {
+    .plan-desc {
         font-size: 16px;
         height: 24px;
         line-height: 24px;

@@ -1,21 +1,21 @@
-.optionList {
+.option-list {
     display: flex;
     flex-direction: column;
     background: rgb(255, 255, 255);
     border-radius: 16px;
-    box-shadow: 0px 8px 24px 0px rgba(192, 204, 226, 0.33);
+    box-shadow: 0 8px 24px 0 rgba(192, 204, 226, 0.33);
     width: 100%;
     max-width: 1140px;
     margin: 40px auto auto;
 }
 
 @media screen and (max-width: 400px) {
-    .optionList {
+    .option-list {
         max-width: 350px;
     }
 }
 
-.optionBox {
+.option-box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,20 +23,20 @@
 }
 
 @media screen and (max-width: 400px) {
-    .optionBox {
+    .option-box {
         margin: 12px 16px;
     }
 }
 
-.optionCost {
+.option-cost {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 
-.optionPrice {
-    font-family: Bree Serif;
+.option-price {
+    font-family: Bree Serif, sans-serif;
     color: rgb(60, 45, 160);
     margin-right: 24px;
     font-size: 32px;
@@ -46,7 +46,7 @@
 }
 
 @media screen and (max-width: 400px) {
-    .optionPrice {
+    .option-price {
         color: rgb(60, 45, 160);
         font-size: 22px;
         text-align: right;
@@ -55,7 +55,7 @@
 
 .btn {
     background: rgb(255, 49, 130);
-    border-radius: 0px;
+    border-radius: 0;
     max-height: 56px;
     max-width: 102px;
 }
@@ -66,16 +66,16 @@
         max-width: 135px;
     }
 }
-.optionCredit{
+.option-credit{
     color: rgb(26, 31, 69);
-    font-family: ChiswickGrotesqueLebara-Bold;
+    font-family: ChiswickGrotesqueLebara-Bold, sans-serif;
     font-size: 32px;
     font-weight: bold;
     letter-spacing: -0.5px;
 }
 
 @media screen and (max-width: 400px) {
-    .optionCredit {
+    .option-credit {
         font-size: 22px;
     }
 }

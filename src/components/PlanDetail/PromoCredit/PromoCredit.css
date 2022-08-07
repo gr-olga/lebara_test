@@ -1,14 +1,14 @@
-.numberBox {
+.number-box {
     display: flex;
     flex-direction: row;
-    font-family: ChiswickGrotesqueLebara-Bold;
+    font-family: ChiswickGrotesqueLebara-Bold, sans-serif;
     color: rgb(26, 31, 69);
     font-size: 32px;
     font-weight: bold;
     letter-spacing: -0.5px;
 }
 @media screen and (max-width: 400px) {
-    .numberBox {
+    .number-box {
         font-size: 22px;
     }
 }

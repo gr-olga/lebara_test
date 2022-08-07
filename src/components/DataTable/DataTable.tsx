@@ -4,12 +4,12 @@ import './DataTable.css'
 
 export default function DataTable() {
     return (
-        <ul className="plansList">
+        <ul className="plan-list">
             {data && data.map((i) => {
                 return (
-                    <li key={i.id} className="planBox">
-                        <h3 className="planTitle">{i.planType}</h3>
-                        <p className="planDesc">{i.planDesc}</p>
+                    <li key={i.id} className="plan-box">
+                        <h3 className="plan-title">{i.planType}</h3>
+                        <p className="plan-desc">{i.planDesc}</p>
                         <div>
                             <PlanDetail data={i.products}/>
                         </div>

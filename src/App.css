@@ -1,4 +1,4 @@
-.mainBox {
+.main-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 400px) {
-    .mainBox {
+    .main-box {
         padding-right: 16px;
         padding-left: 16px;
     }
@@ -18,28 +18,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("../src/images/prepaid-top_up-mobile-hero@2x.png");
-    height: 350px;
+    justify-content: center;
+    background-image: url("../src/images/prepaid-top_up-desktop-hero@1x.png");
+    height: 346px;
 }
 
 @media screen and (max-width: 400px) {
     .header {
+        background-image: url("../src/images/prepaid-top_up-mobile-hero@2x.png");
         height: 244px;
     }
 }
 
 .title {
     color: rgb(255, 255, 255);
-    font-family: Bree Serif;
+    font-family: Bree Serif, sans-serif;
     font-size: 56px;
     font-weight: bold;
     height: 56px;
     letter-spacing: -0.88px;
     text-align: center;
-    margin-top: 100px;
 }
 
-.purpleBanner {
+.title-box {
     display: flex;
     flex-direction: column;
     background: rgb(60, 45, 160);
@@ -53,16 +54,16 @@
 }
 
 @media screen and (max-width: 400px) {
-    .purpleBanner {
+    .title-box {
         border-radius: 8px;
         height: 120px;
         max-width: 343px;
     }
 }
 
-.headerTitle {
+.header-title {
     color: rgb(255, 255, 255);
-    font-family: Bree Serif;
+    font-family: Bree Serif, sans-serif;
     font-size: 48px;
     font-weight: bold;
     height: 48px;
@@ -71,7 +72,7 @@
 }
 
 @media screen and (max-width: 400px) {
-    .headerTitle {
+    .header-title {
         font-size: 28px;
         margin-top: 8px;
     }
@@ -79,7 +80,7 @@
 
 .desc {
     color: rgb(255, 255, 255);
-    font-family: Roboto-Medium;
+    font-family: Roboto-Medium, sans-serif;
     font-size: 18px;
     font-weight: 500;
     height: 28px;
