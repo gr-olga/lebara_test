@@ -9,7 +9,7 @@
     margin: 40px auto auto;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
     .option-list {
         max-width: 350px;
         margin-top: 32px;
@@ -24,7 +24,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
     .option-box {
         margin: 12px 16px;
     }
@@ -46,7 +46,7 @@
     word-wrap: initial;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
     .option-price {
         color: rgb(60, 45, 160);
         font-size: 24px;
@@ -61,7 +61,7 @@
     max-width: 102px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
     .btn {
         max-height: 48px;
         max-width: 135px;
@@ -74,7 +74,7 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
     .option-credit {
         font-size: 22px;
     }

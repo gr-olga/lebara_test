@@ -26,7 +26,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
     .plan-title {
         font-size: 32px;
         margin-top: 40px;

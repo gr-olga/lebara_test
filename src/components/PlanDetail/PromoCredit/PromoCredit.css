@@ -8,7 +8,7 @@
     align-items: baseline;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
     .number-box {
         font-size: 22px;
     }
@@ -29,7 +29,7 @@
     margin-right: 0;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
     .num {
         font-size: 20px;
     }
