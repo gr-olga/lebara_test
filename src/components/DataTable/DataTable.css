@@ -1,6 +1,7 @@
 .plan-list {
     width: 100%;
     max-width: 1140px;
+    min-width: 700px;
 }
 
 .plan-box {
@@ -27,6 +28,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .plan-list {
+        min-width: 300px;
+    }
+
     .plan-title {
         font-size: 32px;
         margin-top: 40px;
