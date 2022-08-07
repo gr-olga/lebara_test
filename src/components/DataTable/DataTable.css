@@ -11,15 +11,13 @@
 .plan-title {
     color: rgb(60, 45, 160);
     font-family: Bree Serif, sans-serif;
-    font-size: 32px;
+    font-size: 56px;
     font-weight: bold;
-    height: 32px;
     letter-spacing: -0.4px;
     margin-top: 30px;
 }
 
 .plan-desc {
-    margin-top: 15px;
     color: rgb(60, 45, 160);
     font-family: Bree Serif, sans-serif;
     font-size: 20px;
@@ -30,6 +28,10 @@
 }
 
 @media screen and (max-width: 400px) {
+    .plan-title {
+        font-size: 32px;
+    }
+
     .plan-desc {
         font-size: 16px;
         height: 24px;

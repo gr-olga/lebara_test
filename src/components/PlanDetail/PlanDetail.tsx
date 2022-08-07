@@ -15,9 +15,9 @@ export default function PlanDetail(props: { data: Array<PlanDetailType> }) {
                                 ?
                                 <PromoCredit credit={item.credit} promoCredit={item.promoCredit} cost={item.cost}/>
                                 :
-                                <h4 className="option-credit">{item.credit}</h4>}
+                                <span className="option-credit">{item.credit}</span>}
                             <div className="option-cost">
-                                <h4 className="option-price"> €{item.cost}</h4>
+                                <span className="option-price"> €{item.cost}</span>
                                 <Button className="btn" colorScheme='pink' onClick={() => window.open(item.url)}
                                         aria-label="link">TopUp</Button>
                             </div>
