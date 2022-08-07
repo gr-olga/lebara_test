@@ -3,8 +3,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-right: 390px;
-    padding-left: 390px;
+    padding-right: 350px;
+    padding-left: 350px;
+}
+
+@media screen and (max-width: 400px) {
+    .mainBox {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
 }
 
 .header {
