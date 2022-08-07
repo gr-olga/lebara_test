@@ -12,6 +12,7 @@
 @media screen and (max-width: 400px) {
     .option-list {
         max-width: 350px;
+        margin-top: 32px;
     }
 }
 
@@ -20,6 +21,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 32px 56px;
+    align-items: center;
 }
 
 @media screen and (max-width: 400px) {
@@ -41,14 +43,13 @@
     margin-right: 24px;
     font-size: 32px;
     font-weight: bold;
-    letter-spacing: -0.5px;
     word-wrap: initial;
 }
 
 @media screen and (max-width: 400px) {
     .option-price {
         color: rgb(60, 45, 160);
-        font-size: 22px;
+        font-size: 24px;
         text-align: right;
     }
 }
@@ -71,7 +72,6 @@
     font-family: ChiswickGrotesqueLebara-Bold, sans-serif;
     font-size: 32px;
     font-weight: bold;
-    letter-spacing: -0.5px;
 }
 
 @media screen and (max-width: 400px) {

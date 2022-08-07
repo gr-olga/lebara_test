@@ -5,31 +5,43 @@
     color: rgb(26, 31, 69);
     font-size: 32px;
     font-weight: bold;
-    letter-spacing: -0.5px;
+    align-items: baseline;
 }
+
 @media screen and (max-width: 400px) {
     .number-box {
         font-size: 22px;
     }
 }
 
-.credit {
+.num {
+    margin-right: 4px;
+}
+
+.num.--credit {
     color: rgb(189, 199, 219);
-    font-size: 32px;
     font-weight: bold;
-    height: 32px;
-    letter-spacing: -0.5px;
-    margin-right: 8px;
-    margin-left: 8px;
     text-decoration: line-through;
-    word-wrap: initial;
+    margin-right: 8px;
+}
+
+.num:last-of-type {
+    margin-right: 0;
 }
 
 @media screen and (max-width: 400px) {
-    .credit {
-        font-size: 22px;
-        margin: 0;
+    .num {
+        font-size: 20px;
     }
+
+    .num.--promo-credit {
+        font-size: 24px;
+    }
+
+    .num.--credit {
+        font-size: 20px;
+    }
+
 }
 
 

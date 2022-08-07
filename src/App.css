@@ -36,7 +36,6 @@
     font-size: 56px;
     font-weight: bold;
     height: 56px;
-    letter-spacing: -0.88px;
     text-align: center;
 }
 
@@ -67,7 +66,6 @@
     font-size: 48px;
     font-weight: bold;
     height: 48px;
-    letter-spacing: -0.75px;
     margin-top: 20px;
 }
 
@@ -89,6 +87,10 @@
 }
 
 @media screen and (max-width: 400px) {
+    .title {
+        font-size: 32px;
+    }
+
     .desc {
         font-size: 14px;
         margin-top: 0;
@@ -100,8 +102,9 @@
 .triangle {
     width: 0;
     height: 0;
-    border-left: 40px solid transparent;
-    border-right: 40px solid transparent;
-    border-top: 30px solid rgb(60, 45, 160);
-    margin-top: 20px;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 10px solid rgb(61 45 160);
+    margin-top: 38px;
+
 }

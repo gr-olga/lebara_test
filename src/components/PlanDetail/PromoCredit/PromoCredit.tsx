@@ -4,10 +4,10 @@ export default function PromoCredit(props: { credit: number, promoCredit: number
 
     return (
         <div className="number-box">
-            <span className="num">{props.cost}</span>
-            <span className="num"> = </span>
-            <span className="credit">{props.credit}</span>
-            <span className="num">{props.promoCredit}</span>
+            <span className="num --cost">{props.cost}</span>
+            <span className="num --equal"> = </span>
+            <span className="num --credit">{props.credit}</span>
+            <span className="num --promo-credit">{props.promoCredit}</span>
         </div>
     )
 }
