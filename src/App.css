@@ -1,5 +1,15 @@
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 390px;
+    padding-left: 390px;
+}
 
 .header {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     background-image: url("../src/images/prepaid-top_up-mobile-hero@2x.png");
     height: 350px;
@@ -23,13 +33,15 @@
 }
 
 .purpleBanner {
-    display: block;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
     background: rgb(60, 45, 160);
     border-radius: 16px;
     height: 164px;
     min-width: 100px;
+    width: 100%;
     max-width: 1140px;
+    margin: -40px auto auto;
 
 }
 
@@ -39,4 +51,49 @@
         height: 120px;
         max-width: 343px;
     }
+}
+
+.headerTitle {
+    color: rgb(255, 255, 255);
+    font-family: Bree Serif;
+    font-size: 48px;
+    font-weight: bold;
+    height: 48px;
+    letter-spacing: -0.75px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .headerTitle {
+        font-size: 28px;
+        margin-top: 8px;
+    }
+}
+
+.desc {
+    color: rgb(255, 255, 255);
+    font-family: Roboto-Medium;
+    font-size: 18px;
+    font-weight: 500;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 28px;
+}
+
+@media screen and (max-width: 400px) {
+    .desc {
+        font-size: 14px;
+        margin-top: 0;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 30px solid rgb(60, 45, 160);
+    margin-top: -15px;
 }

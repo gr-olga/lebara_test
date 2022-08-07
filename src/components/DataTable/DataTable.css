@@ -1,9 +1,12 @@
+.plansList {
+    width: 100%;
+    max-width: 1140px;
+}
 
 .planBox {
     list-style: none;
     margin-bottom: 40px;
 }
-
 
 .planTitle {
     color: rgb(60, 45, 160);

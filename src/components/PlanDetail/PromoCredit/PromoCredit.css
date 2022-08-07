@@ -5,9 +5,12 @@
     color: rgb(26, 31, 69);
     font-size: 32px;
     font-weight: bold;
-    height: 32px;
     letter-spacing: -0.5px;
-    width: 39px;
+}
+@media screen and (max-width: 400px) {
+    .numberBox {
+        font-size: 22px;
+    }
 }
 
 .credit {
@@ -25,9 +28,8 @@
 
 @media screen and (max-width: 400px) {
     .credit {
-        font-size: 24px;
-        font-weight: bold;
-        height: 24px;
+        font-size: 22px;
+        margin: 0;
     }
 }
 
